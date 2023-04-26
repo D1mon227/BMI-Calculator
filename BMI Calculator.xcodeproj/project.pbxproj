@@ -9,21 +9,32 @@
 /* Begin PBXBuildFile section */
 		7349F27029ECA3AD00770606 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7349F26F29ECA3AD00770606 /* AppDelegate.swift */; };
 		7349F27229ECA3AD00770606 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7349F27129ECA3AD00770606 /* SceneDelegate.swift */; };
-		7349F27429ECA3AD00770606 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7349F27329ECA3AD00770606 /* ViewController.swift */; };
-		7349F27729ECA3AD00770606 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7349F27529ECA3AD00770606 /* Main.storyboard */; };
+		7349F27429ECA3AD00770606 /* CalculateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7349F27329ECA3AD00770606 /* CalculateViewController.swift */; };
 		7349F27929ECA3AF00770606 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7349F27829ECA3AF00770606 /* Assets.xcassets */; };
 		7349F27C29ECA3AF00770606 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7349F27A29ECA3AF00770606 /* LaunchScreen.storyboard */; };
+		7349F28729ECA43800770606 /* CalculateViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7349F28629ECA43800770606 /* CalculateViews.swift */; };
+		7349F28A29ECA63900770606 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7349F28929ECA63900770606 /* SnapKit */; };
+		7349F28D29ECAC4000770606 /* UIColor Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7349F28C29ECAC4000770606 /* UIColor Extension.swift */; };
+		7349F28F29ECAF3B00770606 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7349F28E29ECAF3B00770606 /* ResultViewController.swift */; };
+		7349F29129ECAFF300770606 /* ResultViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7349F29029ECAFF300770606 /* ResultViews.swift */; };
+		73F70BF129F95ED400AAD135 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F70BF029F95ED400AAD135 /* CalculatorBrain.swift */; };
+		73F70BF329F973E400AAD135 /* BMI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F70BF229F973E400AAD135 /* BMI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7349F26C29ECA3AD00770606 /* BMI Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BMI Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7349F26F29ECA3AD00770606 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7349F27129ECA3AD00770606 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7349F27329ECA3AD00770606 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7349F27629ECA3AD00770606 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7349F27329ECA3AD00770606 /* CalculateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateViewController.swift; sourceTree = "<group>"; };
 		7349F27829ECA3AF00770606 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7349F27B29ECA3AF00770606 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7349F27D29ECA3AF00770606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7349F28629ECA43800770606 /* CalculateViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateViews.swift; sourceTree = "<group>"; };
+		7349F28C29ECAC4000770606 /* UIColor Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor Extension.swift"; sourceTree = "<group>"; };
+		7349F28E29ECAF3B00770606 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		7349F29029ECAFF300770606 /* ResultViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViews.swift; sourceTree = "<group>"; };
+		73F70BF029F95ED400AAD135 /* CalculatorBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
+		73F70BF229F973E400AAD135 /* BMI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7349F28A29ECA63900770606 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,13 +70,50 @@
 			children = (
 				7349F26F29ECA3AD00770606 /* AppDelegate.swift */,
 				7349F27129ECA3AD00770606 /* SceneDelegate.swift */,
-				7349F27329ECA3AD00770606 /* ViewController.swift */,
-				7349F27529ECA3AD00770606 /* Main.storyboard */,
+				7349F28429ECA3D400770606 /* Models */,
+				7349F28529ECA3DB00770606 /* Views */,
+				7349F28329ECA3C800770606 /* Controller */,
+				7349F28B29ECAC0E00770606 /* Helpers */,
 				7349F27829ECA3AF00770606 /* Assets.xcassets */,
 				7349F27A29ECA3AF00770606 /* LaunchScreen.storyboard */,
 				7349F27D29ECA3AF00770606 /* Info.plist */,
 			);
 			path = "BMI Calculator";
+			sourceTree = "<group>";
+		};
+		7349F28329ECA3C800770606 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7349F27329ECA3AD00770606 /* CalculateViewController.swift */,
+				7349F28E29ECAF3B00770606 /* ResultViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7349F28429ECA3D400770606 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				73F70BF229F973E400AAD135 /* BMI.swift */,
+				73F70BF029F95ED400AAD135 /* CalculatorBrain.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7349F28529ECA3DB00770606 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7349F28629ECA43800770606 /* CalculateViews.swift */,
+				7349F29029ECAFF300770606 /* ResultViews.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7349F28B29ECAC0E00770606 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7349F28C29ECAC4000770606 /* UIColor Extension.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +132,9 @@
 			dependencies = (
 			);
 			name = "BMI Calculator";
+			packageProductDependencies = (
+				7349F28929ECA63900770606 /* SnapKit */,
+			);
 			productName = "BMI Calculator";
 			productReference = 7349F26C29ECA3AD00770606 /* BMI Calculator.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +163,9 @@
 				Base,
 			);
 			mainGroup = 7349F26329ECA3AD00770606;
+			packageReferences = (
+				7349F28829ECA63900770606 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 7349F26D29ECA3AD00770606 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +182,6 @@
 			files = (
 				7349F27C29ECA3AF00770606 /* LaunchScreen.storyboard in Resources */,
 				7349F27929ECA3AF00770606 /* Assets.xcassets in Resources */,
-				7349F27729ECA3AD00770606 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +192,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7349F27429ECA3AD00770606 /* ViewController.swift in Sources */,
+				7349F28729ECA43800770606 /* CalculateViews.swift in Sources */,
+				7349F28D29ECAC4000770606 /* UIColor Extension.swift in Sources */,
+				7349F27429ECA3AD00770606 /* CalculateViewController.swift in Sources */,
 				7349F27029ECA3AD00770606 /* AppDelegate.swift in Sources */,
 				7349F27229ECA3AD00770606 /* SceneDelegate.swift in Sources */,
+				7349F29129ECAFF300770606 /* ResultViews.swift in Sources */,
+				73F70BF129F95ED400AAD135 /* CalculatorBrain.swift in Sources */,
+				73F70BF329F973E400AAD135 /* BMI.swift in Sources */,
+				7349F28F29ECAF3B00770606 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7349F27529ECA3AD00770606 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7349F27629ECA3AD00770606 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7349F27A29ECA3AF00770606 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,9 +344,9 @@
 				INFOPLIST_FILE = "BMI Calculator/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +354,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.d1mon227.BMI-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -320,9 +375,9 @@
 				INFOPLIST_FILE = "BMI Calculator/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +385,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.d1mon227.BMI-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -358,6 +416,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7349F28829ECA63900770606 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = exactVersion;
+				version = 5.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7349F28929ECA63900770606 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7349F28829ECA63900770606 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7349F26429ECA3AD00770606 /* Project object */;
 }
